@@ -1,0 +1,44 @@
+I went through the Git Lab tutorials on feb 21, 2023 
+And I made my GitHub account on feb 21, 2023
+
+
+
+
+
+1. On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	docs/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2. 9 commits and I used       git log | grep -c "commit"
+
+3. Wed Feb 21 18:18:45 2024 -0500.     git log -1 -- README.md
+
+4.for flexibility, and colaborativity. It is good for experimenting with parts of a project so you can safely go back after a mistake. It is good for experimenting with features new and old. 
+
+5. Git log is used for looking at the history of your commits
+And git states provides current information about files in your directory. 
+
+6. git log -- Vehicle.h
+
+7. git log --grep="file"
+
+8. Inheritance makes a class be able to inherit properties from another one
+
+Polymorphism makes it so that object from different classes can be used together because they would all be a part of a super class. 
+
+Encapsulation is putting together functions and data into one class so its use can be specialized and limited for the sake of efficiency
+
+9. I would say that Integration manager workflow works in the case that everyone can publish to their own public repository, and then the integration manager can chose from the public repositories and push it to the blessed repository. This is easy for manager to notice credit from developers. 
+
+Dictator and Lieutenants workflow works in a way that all the developers can also pull from the blessed repository, but are then funneled by pushing to a lieutenant who selectively push to the dictator which selectively pushes to the blessed directory. This allows larger scale projects but does not see credit easily. 
+
+10. A team of 100 developers would benefit from the dictator and lieutenants because it would avoid a big heap of clutter. In a centralized workflow, Many developers can make changes that must be viewed by all the other 99 developers in due time in order for confusion and errors not to arrive, this increases risk of failure. In the other hand, the hierarchy of Dictator and lieutenants allows for changes to be made step by step, holding only one persons actions responsible for the repository at a time. 
+
+
+
